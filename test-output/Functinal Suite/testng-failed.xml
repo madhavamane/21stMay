@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Functinal Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Functinal Test(failed)">
+    <classes>
+      <class name="POM.Reg_Page_Test">
+        <methods>
+          <include name="fbRegPage_Postive"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- POM.Reg_Page_Test -->
+    </classes>
+  </test> <!-- Functinal Test(failed) -->
+</suite> <!-- Failed suite [Functinal Suite] -->
